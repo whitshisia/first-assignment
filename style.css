@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content:center ;
+    align-items: center;
+    background-color: aqua;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar{
+    background-color:cadetblue ;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-decoration-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar #links a{
+    color: blueviolet;
+    margin-left: 30px;
+}
+
+.landing_section .column1 button
+{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:aquamarine;
+    color: aquamarine;
+    margin-right: 10px;
+}
+
+*{
+    text-align: center;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+}
